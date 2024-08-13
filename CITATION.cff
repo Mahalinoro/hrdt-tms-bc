@@ -1,0 +1,15 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: HRDT
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Mahalinoro
+    family-names: Razafimanjato
+    email: mahaly@knu.ac.kr
+repository-code: 'https://github.com/Mahalinoro/hrdt-tms-bc'
+license: MIT
