@@ -1,0 +1,24 @@
+test:
+  name: large-scale-performance-benchmark
+  description: Test various configurations to evaluate network performance
+  workers:
+    type: local
+    number: 20
+  rounds:
+    - label: vehicle-10-tps
+      description: 10 vehicles at random tps
+      txDuration: 60
+      rateControl:
+        type: fixed-rate
+        opts: 
+          tps: 2000
+      workload:
+        module: ./updateTrustScore.js
+        arguments:
+          initVehicles: 20
+          contractId: basic
+
+
+          
+
+
